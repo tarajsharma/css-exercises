@@ -75,24 +75,20 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .modal {
   display: flex;
-  padding: 16px;
-}
-
-.container {
-  display: flex;
-  flex-shrink: 8;
+  padding: 14px;
+  gap: 10px;
 }
 
 .icon {
-  margin: 8px;
-  flex-basis: 42px;
+  flex-shrink: 0;
 }
 
 .text {
-  padding: 4px;
+  margin-bottom: 16px;
 }
