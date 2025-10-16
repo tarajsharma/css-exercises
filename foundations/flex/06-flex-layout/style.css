@@ -29,7 +29,44 @@ input {
 
 /* My solution */
 
+body {
+  flex-direction: column;
+}
+
 ul {
+  display: flex;
   list-style-type: none;
-  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.header, 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  gap: 22px;
+}
+
+
+button {
+  padding: 10px;
 }
