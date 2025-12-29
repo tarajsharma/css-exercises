@@ -71,19 +71,19 @@ button.cancel {
 
 /* My solution */
 
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
 .header {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 8px;
-}
-
-.modal {
-  display: flex;
-  padding: 14px;
-  gap: 10px;
 }
 
 .icon {
