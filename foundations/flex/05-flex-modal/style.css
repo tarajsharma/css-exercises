@@ -76,14 +76,14 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 
 .modal {
   display: flex;
-  padding: 16px;
-  gap: 16px;
+  padding: 14px;
+  gap: 10px;
 }
 
 .icon {
