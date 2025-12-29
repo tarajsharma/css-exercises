@@ -60,6 +60,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 0 4px 0 0;
 }
 
 button.cancel {
@@ -76,23 +77,19 @@ button.cancel {
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .modal {
   display: flex;
   padding: 16px;
-}
-
-.container {
-  display: flex;
-  flex-shrink: 8;
+  gap: 16px;
 }
 
 .icon {
-  margin: 8px;
-  flex-basis: 42px;
+  flex-shrink: 0;
 }
 
 .text {
-  padding: 4px;
+  margin-bottom: 16px;
 }
